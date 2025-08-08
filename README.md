@@ -31,14 +31,19 @@ Open two terminals:
 
 **Terminal 1: Start dashboard**
 ```sh
-cd packages/dashboard
-npm start
+cd to root folder
+yarn run dev:dashboard
 ```
 
 **Terminal 2: Start host**
 ```sh
-cd packages/host
-npm start
+cd to root folder
+yarn run dev:host
+```
+## Start all package
+```sh
+cd to root folder
+yarn run start
 ```
 
 - Host runs on [http://localhost:3000](http://localhost:3000)
